@@ -1,31 +1,31 @@
-/*h1{
-color: red;
-background-color: yellow;
-border: solid;
-border-width: 10px;
-border-color: green;
-font-family: "Arial Black";
-font-size: 50px;
-font-style: italic;
-height: 140px;
-letter-spacing: 30px;
-margin: 50px 50px 50px 50px;
-opacity: 0.4;
-padding: 50px 50px 50px 50px;
-text-align: center;
-width: 300px;
+body {
+    background-color: #1E1E1E;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
-p.warning{
-color: blue;
-background-color: yellow;
 
-}*/
-
-p{
-    background-color: green;
-
+.integrantes{
+    display: list-item;
 }
-.fotos{
-    margin: 0px 35px 0px 0px;
-    border-radius: 25px;
+
+.perfil {
+    width: 10%;
+}
+
+#sliceshow {
+    
+}
+
+#sliceshow img{
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    width: 10%;
+    opacity: 0.5;
+}
+
+#sliceshow img:hover{
+    width: 11%;
+    opacity: 1;
 }
