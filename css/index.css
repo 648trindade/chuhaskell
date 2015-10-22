@@ -4,6 +4,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* -------------- header ---------- */
+
 .integrantes{
     display: list-item;
 }
@@ -29,3 +31,5 @@ body {
     width: 11%;
     opacity: 1;
 }
+
+/* ------------ footer ------------ */
