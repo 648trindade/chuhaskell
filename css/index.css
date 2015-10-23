@@ -57,8 +57,10 @@ header li:hover{
 /* ------------- corpo ------------ */
 
 #quemsomos > * {
-    display: inline;
-    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 40%;
 }
 
 fieldset{
@@ -106,4 +108,10 @@ footer li{
 footer > * {
     display: inline-block;
     margin-right: 20%;   
+}
+
+#legenda {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 40px;
 }
