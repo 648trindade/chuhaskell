@@ -38,9 +38,7 @@ header {
     background-image: url("../fotos/papeis.jpg");
     text-align: center;
     background-size: 100%;
-    width: 100%;
-    height: 100%;
-    
+    height: 70%;
 }
 
 #header-corpo img{
