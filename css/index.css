@@ -88,6 +88,12 @@ fieldset{
     opacity: 0.5;
 }
 
+table p{
+    width: 40%;
+    text-align: justify;  
+    padding-left:   
+}
+
 #sliceshow img:hover{
     width: 11%;
     opacity: 1;
