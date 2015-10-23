@@ -1,0 +1,67 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(-29.713452, -53.716929),
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <title>Chuhaskell Homepage</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+    <header>
+        <div id="header-links">
+            <ul>
+                <li><a href="index.html">&gt; Quem somos_</a></li>
+                <li><a href="projetos.html">&gt; Projetos_</a></li>
+                <li><a href="contato.html">&gt; Contato_</a></li>
+            </ul>
+        </div>
+        <div id="header-contatos">
+            <!-- <h1>Equipe Chushaskell</h1> -->
+        </div>
+    </header>
+    <center>
+        <br>
+        <hr>
+    <div id="legenda">Contatos</div>
+    <div id="quemsomos">
+        <img src="fotos/ct.jpg"></img>
+        <br>
+        <div>Nossa Headquarters se encontra na UFSM - CT terceiro piso.</div>
+        <div>Localização:</div>
+        <div id="map"></div>
+        
+    </div>
+    </center>
+    
+    <footer>
+        <img src="fotos/chuhaskell.png"/>
+        <div id="footer-text">
+            <ul>
+                <li>Sobre</li>
+                <li>Contato</li>
+            </ul>
+            <p>&#169 2015 Chuhaskell</p>
+        </div>
+        <ul id="social">
+            <li>
+                <img src="">twitter
+            </li>
+            <li>
+                <img src="">youtube
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>
