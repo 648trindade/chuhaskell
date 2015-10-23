@@ -4,7 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body ul{
+ul{
     padding-left: 0px;
 }
 
@@ -19,9 +19,12 @@ header {
     margin-top: -15px;
 }
 
-#header-links {
+#header-links a{
     color: darkgrey;
     font-family: sans-serif;
+    text-decoration: none;
+}
+#header-links {
     position: fixed;
     width: 100%;
     background: #111111;
@@ -30,7 +33,7 @@ header {
     background-image: url("../fotos/codigos.jpg");
     background-size: 100%;
     text-align: center;
-    padding-bottom: 1px;
+    padding-top: 5%;
     /*text-shadow: 2px 2px black;*/
 }
 
@@ -54,12 +57,8 @@ header ul {
     display: inline;
     margin-left: 5%;
 }
-header {
-    border-color: white;
-    border: 10px;
-}
 
-header li:hover{
+header a:hover{
     color: white;
 }
 
@@ -83,32 +82,42 @@ hr {
 }
 
 .perfil {
+    border: 30px solid black;
     width: 200px;
-    border-radius: 100px;
+    border-radius: 150px;
 }
 
 #sliceshow {
-    height: 70%;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #sliceshow img{
     margin-left: 5px;
     margin-top: 20px;
-    margin-bottom: 5px;
     border-radius: 20px;
     width: 10%;
     opacity: 0.5;
 }
 
-table p{
+.p1, .p2{
+    text-align: justify;
+    background-color: black;
+}
+
+.p1{
     width: 50%;
-    text-align: justify;  
-    padding-left:  20%; 
+    margin-left: -100px;
+    padding: 30px 30px 30px 130px;
+}
+
+.p2 {
+    width: 60%;
+    margin-right: -300px;
+    padding: 30px 150px 30px 30px;
 }
 
 #sliceshow img:hover{
-    width: 11%;
     opacity: 1;
 }
 
