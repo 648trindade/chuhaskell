@@ -22,7 +22,9 @@ header {
 #header-links {
     color: darkgrey;
     font-family: sans-serif;
-    
+    position: fixed;
+    width: 100%;
+    background: #111111;
 }
 #header-corpo {
     background-image: url("../fotos/codigos.jpg");
@@ -73,7 +75,8 @@ fieldset{
 }
 
 #sliceshow {
-    
+    height: 70%;
+    text-align: center;
 }
 
 #sliceshow img{
@@ -94,6 +97,7 @@ fieldset{
 
 footer {
     text-align: center;
+    padding-top: 10px;
 }
 
 footer > img{
@@ -102,7 +106,6 @@ footer > img{
 
 footer li{
     display: inline-block;
-    
 }
 
 footer > * {
@@ -114,4 +117,5 @@ footer > * {
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 40px;
+    margin-right: 20%;  
 }
