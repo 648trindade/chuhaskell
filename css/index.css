@@ -22,7 +22,9 @@ header {
 #header-links {
     color: darkgrey;
     font-family: sans-serif;
-    
+    position: fixed;
+    width: 100%;
+    background: #111111;
 }
 #header-corpo {
     background-image: url("../fotos/codigos.jpg");
@@ -57,8 +59,7 @@ header li:hover{
 /* ------------- corpo ------------ */
 
 #quemsomos > * {
-    display: inline;
-    width: 20%;
+    width: 40%;
 }
 
 fieldset{
@@ -71,7 +72,8 @@ fieldset{
 }
 
 #sliceshow {
-    
+    height: 70%;
+    text-align: center;
 }
 
 #sliceshow img{
@@ -92,6 +94,7 @@ fieldset{
 
 footer {
     text-align: center;
+    padding-top: 10px;
 }
 
 footer > img{
@@ -100,10 +103,9 @@ footer > img{
 
 footer li{
     display: inline-block;
-    
 }
 
 footer > * {
     display: inline-block;
-    margin-right: 20%;   
+    margin-right: 20%;  
 }
