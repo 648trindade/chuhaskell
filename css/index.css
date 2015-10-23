@@ -65,7 +65,11 @@ header li:hover{
     width: 40%;
 }
 
-fieldset{
+hr {
+    width: 80%;
+}
+
+#fieldset{
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
