@@ -6,15 +6,24 @@
 </head>
 <body>
     <header>
-        <img src="fotos/chuhaskell.png"/></img>
-        <h1>Equipe Chushaskell</h1>
+        <div id="header-links">
+            <ul>
+                <li>&lt;Quem somos&gt;</li>
+                <li>&lt;Projetos&gt;</li>
+                <li>&lt;Contato&gt;</li>
+            </ul>
+        </div>
+        <div id="header-corpo">
+            <img src="fotos/chuhaskell_logo.png"/></img>
+            <!-- <h1>Equipe Chushaskell</h1> -->
+        </div>
     </header>
     
-    <fieldset>
-        <legend>Quem somos?</legend>
+    <div>Quem somos?</div>
+    <div id="quemsomos">
         <img src="fotos/grupo.jpg"></img>
-        <p>Chuhaskell é o time competitivo organizado para campeonatos regionais de programação</p>
-    </fieldset>
+        <div>Chuhaskell é o time competitivo organizado para campeonatos regionais de programação</div>
+    </div>
     
     <fieldset>
         <legend>Integrantes</legend>
@@ -22,24 +31,24 @@
         
         <table id="integrantes">
             <tr>
-                <img class="perfil" src="fotos/vinicius.jpg"></img>
-                <p>Vinícius<br>Mestre da programação, entusiasta em linguagens formais, manjador de haskell, a esperança da equipe<br></p><br>
+                <td colspan="2"><img class="perfil" src="fotos/vinicius.jpg"></img></td>
+                <td><p>Vinícius<br>Mestre da programação, entusiasta em linguagens formais, manjador de haskell, a esperança da equipe</p></td>
+            <!--</tr>
+            <tr>-->
+                <td colspan="2"><img class="perfil" src="fotos/rafael.jpg"></img></td>
+                <td><p>Rafael<br>Usuario do Windows phone, entusiasta em linux, manjador em Python, administrador da ufsm e da equipe</p></td>
             </tr>
             <tr>
-                <img class="perfil" src="fotos/rafael.jpg"></img>
-                <p>Rafael<br>Usuario do Windows phone, entusiasta em linux, manjador em Python, administrador da ufsm e da equipe<br></p><br>
-            </tr>
-            <tr>
-                <img class="perfil" src="fotos/cassiano.jpg"></img>
-                <p>Cassiano<br>Proprietario do chuhaskell movel, entusiasta em C, manjador em Direção, motorista e presidente da equipe<br></p><br>
-            </tr>
-            <tr>
-                <img class="perfil" src="fotos/iago.jpg"></img>
-                <p>Iago<br>Filho do Baratto, entusiasta em ruby on rails, manjador em circuitos, faz sistemas de informações</p>
-            </tr>
-            <tr>
-                <img class="perfil" src="fotos/lucas.jpg"></img>
-                <p>Lucas<br>Café com leite</p>
+                <td><img class="perfil" src="fotos/cassiano.jpg"></img></td>
+                <td><p>Cassiano<br>Proprietario do chuhaskell movel, entusiasta em C, manjador em Direção, motorista e presidente da equipe</p></td>
+            <!--</tr>
+            <tr>-->
+                <td><img class="perfil" src="fotos/iago.jpg"></img></td>
+                <td><p>Iago<br>Filho do Baratto, entusiasta em ruby on rails, manjador em circuitos, faz sistemas de informações</p></td>
+            <!--</tr>
+            <tr>-->
+                <td><img class="perfil" src="fotos/lucas.jpg"></img></td>
+                <td><p>Lucas<br>Café com leite</p></td>
             </tr>
         </table>
     </fieldset>
@@ -72,20 +81,20 @@
     </fieldset>
     
     <footer>
-        <img src="fotos/chuhaskell_logo.png"/>
+        <img src="fotos/chuhaskell.png"/>
         <div id="footer-text">
-        <ul>
-            <li>Sobre</li>
-            <li>Contato</li>
-        </ul>
-        <p>&#169 2015 Chuhaskell</p>
+            <ul>
+                <li>Sobre</li>
+                <li>Contato</li>
+            </ul>
+            <p>&#169 2015 Chuhaskell</p>
         </div>
         <ul id="social">
             <li>
-                <img src="">
+                <img src="">twitter
             </li>
             <li>
-                <img src="">
+                <img src="">youtube
             </li>
         </ul>
     </footer>

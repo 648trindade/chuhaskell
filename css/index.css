@@ -4,14 +4,70 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* -------------- header ---------- */
+body ul{
+    padding-left: 0px;
+}
 
-.integrantes{
-    display: list-item;
+/* -------------- header ---------- */
+header, footer {
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #111111;
+}
+
+header {
+    margin-top: -15px;
+}
+
+#header-links {
+    color: darkgrey;
+    font-family: sans-serif;
+    
+}
+#header-corpo {
+    background-image: url("../fotos/codigos.jpg");
+    background-size: 100%;
+    text-align: center;
+    padding-bottom: 1px;
+    /*text-shadow: 2px 2px black;*/
+}
+
+#header-corpo img{
+    width: 40%;
+}
+
+header ul {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+#header-links li{
+    display: inline;
+    margin-left: 5%;
+}
+header {
+    border-color: white;
+    border: 10px;
+}
+
+header li:hover{
+    color: white;
+}
+
+/* ------------- corpo ------------ */
+
+#quemsomos > * {
+    display: inline;
+    width: 20%;
+}
+
+fieldset{
+    text-align: center;
 }
 
 .perfil {
-    width: 10%;
+    width: 200px;
+    border-radius: 100px;
 }
 
 #sliceshow {
@@ -33,3 +89,21 @@ body {
 }
 
 /* ------------ footer ------------ */
+
+footer {
+    text-align: center;
+}
+
+footer > img{
+    width: 20%;
+}
+
+footer li{
+    display: inline-block;
+    
+}
+
+footer > * {
+    display: inline-block;
+    margin-right: 20%;   
+}
