@@ -66,12 +66,18 @@ header li:hover{
 }
 
 fieldset{
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
 }
 
 .perfil {
     width: 200px;
     border-radius: 100px;
+}
+
+#cafe {
+    text-align: center;
 }
 
 #sliceshow {
@@ -91,7 +97,7 @@ fieldset{
 table p{
     width: 40%;
     text-align: justify;  
-    padding-left:   
+    padding-left:  33%; 
 }
 
 #sliceshow img:hover{
@@ -123,5 +129,5 @@ footer > * {
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 40px;
-    margin-right: 20%;  
+    text-align: center; 
 }
